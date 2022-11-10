@@ -1,5 +1,5 @@
 import {Todo} from './toDoList.js'
-class project {
+class Project {
     constructor(name) {
         this.name = name;
     }

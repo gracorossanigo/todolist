@@ -5,7 +5,7 @@ class Todo {
         this.name = name;
     }
     tasks = [];
-    addNewTask(task){
-        tasks.append(new Task(task));
+    addNewTask(taskName, taskDescription){
+        this.tasks.append(new Task(taskName, taskDescription));
     }
 }
